@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <!--Link Css-->
+    <link rel="stylesheet" href="Style.css">
+
+    <!--Link Icon-->
+    <link rel="Icon" href="../Conversor de Moeadas/IMG/conversor-de-moeda.png">
+
+</head>
+<body>
+
+<div class="container">
+    <h1 class="Header">Conversor de Moedas</h1>
+
+    <label for="valor">Insira o valor em reais que deseja converter:</label>
+    <input type="number" id="valor" step="0.01" placeholder="R$ 0,00"><br><br>
+
+    <label for="moeda">Escolha a moeda que deseja converter:</label>
+    <select id="moeda">
+        <option value="1">Dólar (USD)</option>
+        <option value="2">Euro (EUR)</option>
+        <option value="3">Libra Esterlina (GBP)</option>
+        <option value="4">Iene Japonês (JPY)</option>
+    </select><br><br>
+
+    <button onclick="converterMoeda()">Converter</button>
+
+    <p id="resultado"></p>
+
+    <!--Link Js-->
+    <script src="Main.js"></script>
+</div>
+</body>
+</html>

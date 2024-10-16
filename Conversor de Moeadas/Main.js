@@ -16,7 +16,7 @@ function converterMoeda() {
 
     switch (moedaDesejada) {
         case 1: // Dólar (USD)
-            conversao = valorQueDesejaConverter / 5,61;
+            conversao = valorQueDesejaConverter / 5.61;
             simboloMoeda = '$';
             break;
         case 2: // Euro (EUR)
